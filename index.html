@@ -10,138 +10,32 @@
     <meta name="author" content="A.Egal">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>A.Egal</title>
   </head>
 
   <body>
-    <style>
+    <div class="row main">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4" style="margin-top: 100px;">
+        <img style="width: 100%;" src="logo.png"/>
 
-    body{
-
-      height:100%;
-    }
-
-    a {
-      color: #0062a3;
-      text-decoration: none;
-    }
-
-    a:link {
-        color: #0062a3;
-    }
-
-    /* visited link */
-    a:visited {
-        color:  #0062a3;
-    }
-
-    /* mouse over link */
-    a:hover {
-        color: #da7500;
-    }
-
-    /* selected link */
-    a:active {
-        color:  #da7500;
-    }
-
-    hr {
-      border-top: 2px solid #0062a3;
-    }
-
-    .btn {
-        display: block;
-        width: 100%;
-        font-weight: 400;
-        line-height: 1.25;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        border: 1px solid transparent;
-        padding: 5px 96px;
-        font-size: 1rem;
-        border-radius: .25rem;
-        -webkit-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-    }
-
-    .btn-outline-primary {
-      color: #0062a3;
-      background-image: none;
-      background-color: transparent;
-      border-color: #0062a3;
-    }
-
-    #footer {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        height: 90px;
-        text-align: center;
-    }
-
-    #footer span {
-
-      margin-left: auto;
-      margin-right: auto;
-      color: #da7500;
-      font-family: 'Lato', serif;
-    }
-
-    h3 {
-      color: #0062a3;
-      font-family: 'Lato', serif;
-    }
-
-    .form-group {
-      margin-bottom: 15px;
-    }
-
-    .form-control {
-        display: block;
-        width: 100%;
-        height: 20px;
-        padding: 6px 12px;
-        font-size: 14px;
-        line-height: 1.42857143;
-        color: #555;
-        background-color: #fff;
-        background-image: none;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    }
-
-    </style>
-
-    <div style="position: relative; margin: 200px auto 30px auto; width: 500px;">
-      <img style="width: 400px; margin: 10px 50px;" src="logo.png"/>
-
-      <form method="post" action="https://formspree.io/abdu.egal+web@gmail.com">
-        <h3>Contact:</h3/>
-        <div class="form-group">
-          <input type="text" class="form-control" name="name" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control" name="_replyto" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <textarea name="body" class="form-control" style="height: 60px;"></textarea>
-        </div>
-        <div class="form-group" style="margin: 0px -25px 0px 0px;">
-          <input type="submit" class="btn btn-outline-primary" value="Send">
-        </div>
-      </form>
+        <form method="post" action="https://formspree.io/abdu.egal+web@gmail.com">
+          <h3>Contact:</h3/>
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="_replyto" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <textarea name="body" class="form-control" style="height: 60px;"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-outline-primary" value="Send">
+          </div>
+        </form>
+      </div>
     </div>
 
     <div id="footer">
